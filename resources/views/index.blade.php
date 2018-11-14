@@ -1,0 +1,11 @@
+@extends('Template.template')
+@section('cabecalho')
+<p>Header</p>
+@endsection
+@section('conteudo')
+@component('lista')
+@endcomponent
+@endsection
+@section('rodape')
+    <p>Footer</p>
+@endsection
